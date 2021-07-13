@@ -863,7 +863,7 @@ class CiscoWebexTeamsBackend(ErrBot):
 
                         while True:
                             message = await ws.recv()
-                            logging.debug(
+                            print(
                                 "WebSocket Received Message(raw): %s\n" % message
                             )
                             try:
